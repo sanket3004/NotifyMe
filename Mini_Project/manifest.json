@@ -1,0 +1,31 @@
+{
+   "background": {
+      "scripts": [ "background.js", "universal_search/background.universal.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "NotifyMe"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js", "universal_search/content.universal.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+
+   "default_locale": "en",
+   "description": "__MSG_EXTENSION_DESCRIPTION__",
+   "icons": {
+      "128": "img/icon.png",
+      "16": "img/icon.png"
+   },
+
+   "manifest_version": 2,
+   "name": "__MSG_EXTENSION_NAME__",
+   "options_page": "/dashboard/index.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "contextMenus", "notifications", "activeTab", "unlimitedStorage" ],
+   "short_name": "__MSG_EXTENSION_SHORT_NAME__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.15",
+   "web_accessible_resources": [ "/dashboard/index.html" ]
+}

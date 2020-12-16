@@ -1,0 +1,191 @@
+{
+   "ADDITIONAL_SETTINGS": {
+      "message": "Additional settings"
+   },
+   "ADVERTISING": {
+      "message": "Advertising"
+   },
+   "ANY_ADVERTISING": {
+      "message": "WE WILL BE HAPPY WITH ANY ADVERTISING."
+   },
+   "BROKEN_TRACKS": {
+      "message": "Broken tracks"
+   },
+   "CHANGES_DETECTED": {
+      "message": "Detected changes on "
+   },
+   "CHANGE_TRACKING": {
+      "message": "select to track changes on the page"
+   },
+   "CHECK_INTERVAL": {
+      "message": "check interval:"
+   },
+   "CLEAR_HISTORY": {
+      "message": "clear the history"
+   },
+   "CREATE_TRACK": {
+      "message": "Start Tracking"
+   },
+   "CURRENT_VERSION": {
+      "message": "current version"
+   },
+   "DATA_LAST_UPDATE": {
+      "message": "date of last check"
+   },
+   "DECREASED": {
+      "message": "decreased (⇣)"
+   },
+   "DIFF": {
+      "message": "show tracking changes"
+   },
+   "DISABLED": {
+      "message": "disabled"
+   },
+   "DISABLE_ENABLE_IMAGES": {
+      "message": "hidden/show images"
+   },
+   "DISABLE_ENABLE_MONITORING": {
+      "message": "off/on tracking"
+   },
+   "DISABLE_ENABLE_NOTIFICATION": {
+      "message": "off/on notifications"
+   },
+   "EMAIL_NOTIFICATION": {
+      "message": "off/on email notifications"
+   },
+   "ENABLED": {
+      "message": "enabled"
+   },
+   "ENTER_WORDS_OR_PHRASES_SEPARATED_BY_COMMAS": {
+      "message": "number or words separated by commas"
+   },
+   "ERROR_TRACKING": {
+      "message": "The monitored objects has lost, try to create a new track and select another block."
+   },
+   "ERROR_TRACKING_CONTINUE": {
+      "message": "The track continues to work."
+   },
+   "ERROR_TRACKING_STOP": {
+      "message": "The track is stopped."
+   },
+   "EXTENSION_DESCRIPTION": {
+      "message": "Price tracker, web page content tracker, monitoring history."
+   },
+   "EXTENSION_NAME": {
+      "message": "Price tracker - Notify Me!"
+   },
+   "EXTENSION_SHORT_NAME": {
+      "message": "price tracker"
+   },
+   "FILTERS": {
+      "message": "filters"
+   },
+   "FREE": {
+      "message": "Free"
+   },
+   "GO_TO_TRACK_LIST": {
+      "message": "go to Wishlist >>>"
+   },
+   "HAS": {
+      "message": "has (⊆)"
+   },
+   "HAS_NUMBER_LESS_THAN": {
+      "message": "has number less than (\u003C)"
+   },
+   "HAS_NUMBER_MORE_THAN": {
+      "message": "has number more than (>)"
+   },
+   "HISTORY": {
+      "message": "viewing history"
+   },
+   "HISTORY_EMPTY": {
+      "message": "history empty"
+   },
+   
+   
+   "INCREASED": {
+      "message": "increased (⇡)"
+   },
+   "LANG": {
+      "message": "en"
+   },
+   "LINK_TO_PAGE": {
+      "message": "link to a tracking page"
+   },
+   "LIST_OF_ALL_TRACKS": {
+      "message": "Wishlist"
+   },
+   "LOGGED": {
+      "message": "Logged in as"
+   },
+   "LOGOUT": {
+      "message": "log out"
+   },
+   "MODE": {
+      "message": "\u003Cspan class='text-warning'>auto mode\u003C/span>/\u003Cspan class='text-warning'>pintab mode\u003C/span> \u003C/br> \u003Csmall>turn on pintab if the auto mode works badly or incorrect\u003C/small>"
+   },
+   "PER_MONTH": {
+      "message": "/month"
+   },
+   "PLACEHOLDER_TRACKING": {
+      "message": "enter the title"
+   },
+   "PLEASE_RELOAD_PAGE": {
+      "message": "Open another page"
+   },
+   "PRO": {
+      "message": "PRO"
+   },
+   "PUSH_NOTIFICATION": {
+      "message": "off/on notifications"
+   },
+   "RECHECK": {
+      "message": "recheck"
+   },
+   "REMIND_ME_LATER": {
+      "message": "Remind me later"
+   },
+   "REMOVE": {
+      "message": "delete"
+   },
+   
+   "SITES_MONITORED": {
+      "message": "Tracked websites"
+   },
+   "SOUND": {
+      "message": "off/on notification sound"
+   },
+   "TOTAL_TRACKS": {
+      "message": "Total tracks"
+   },
+   "TRACK": {
+      "message": "track"
+   },
+   "TRACKING": {
+      "message": "Start Tracking"
+   },
+   "TRACKINGS": {
+      "message": "Wishlist"
+   },
+   "TRACKING_CHANGES": {
+      "message": "Notify Me!"
+   },
+   "TRACKS": {
+      "message": "Tracks"
+   },
+   "TRACK_WAS_CREATED": {
+      "message": "Track was created"
+   },
+   "UPGRADE_TO_PRO": {
+      "message": "upgrade to pro"
+   },
+   "WATCHLIST": {
+      "message": "Wishlist"
+   },
+   "WILL_ONLY_BE_REPORTED_IF_WORDS_OR_PHRASES_ARE_FOUND": {
+      "message": "Will only be reported if"
+   },
+   "YOU_WANT_TO_TRACK_THIS_TEXT": {
+      "message": "Do you want to track the below mentioned price?"
+   }
+}
