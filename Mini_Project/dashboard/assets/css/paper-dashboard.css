@@ -138,7 +138,7 @@ strong {
 
 /*     General overwrite     */
 body {
-  color: #66615b;
+  color: #ffffff;
   font-size: 14px;
   font-family: 'Muli', Arial, sans-serif; }
   body .wrapper {
@@ -328,7 +328,7 @@ hr {
   .off-canvas-sidebar:before,
   .off-canvas-sidebar[data-background-color="white"]:after,
   .off-canvas-sidebar[data-background-color="white"]:before {
-    background-color: #FFFFFF; }
+    background-color: #0c1d2d; }
   .sidebar .logo, .sidebar[data-background-color="white"] .logo,
   .off-canvas-sidebar .logo,
   .off-canvas-sidebar[data-background-color="white"] .logo {
@@ -390,7 +390,7 @@ hr {
     opacity: 1; }
 
 .main-panel {
-  background-color: #f4f3ef;
+  background-color: #000000e8;
   position: relative;
   z-index: 2;
   float: right;
@@ -428,8 +428,8 @@ hr {
   font-size: 14px;
   font-weight: 500;
   padding: 7px 18px;
-  border-color: #66615B;
-  color: #66615B;
+  border-color: #ffffff;
+  color: #ffffff;
   -webkit-transition: all 150ms linear;
   -moz-transition: all 150ms linear;
   -o-transition: all 150ms linear;
@@ -441,9 +441,9 @@ hr {
   .navbar .navbar-nav > li > a.btn:active,
   .navbar .navbar-nav > li > a.btn.active, .open >
   .navbar .navbar-nav > li > a.btn.dropdown-toggle {
-    background-color: #66615B;
-    color: rgba(255, 255, 255, 0.7);
-    border-color: #66615B; }
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000000; }
     .btn:hover .caret, .btn:focus .caret, .btn:active .caret, .btn.active .caret, .open > .btn.dropdown-toggle .caret,
     .navbar .navbar-nav > li > a.btn:hover .caret,
     .navbar .navbar-nav > li > a.btn:focus .caret,
@@ -532,12 +532,12 @@ hr {
   margin-left: -2px; }
 
 .navbar .navbar-nav > li > a.btn-primary, .btn-primary {
-  border-color: #7A9E9F;
-  color: #7A9E9F; }
+  border-color: #ffffff;
+  color: #ffffff; }
   .navbar .navbar-nav > li > a.btn-primary:hover, .navbar .navbar-nav > li > a.btn-primary:focus, .navbar .navbar-nav > li > a.btn-primary:active, .navbar .navbar-nav > li > a.btn-primary.active, .open > .navbar .navbar-nav > li > a.btn-primary.dropdown-toggle, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
-    background-color: #7A9E9F;
-    color: rgba(255, 255, 255, 0.7);
-    border-color: #7A9E9F; }
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.7);
+    border-color: #000000; }
     .navbar .navbar-nav > li > a.btn-primary:hover .caret, .navbar .navbar-nav > li > a.btn-primary:focus .caret, .navbar .navbar-nav > li > a.btn-primary:active .caret, .navbar .navbar-nav > li > a.btn-primary.active .caret, .open > .navbar .navbar-nav > li > a.btn-primary.dropdown-toggle .caret, .btn-primary:hover .caret, .btn-primary:focus .caret, .btn-primary:active .caret, .btn-primary.active .caret, .open > .btn-primary.dropdown-toggle .caret {
       border-top-color: rgba(255, 255, 255, 0.7); }
   .navbar .navbar-nav > li > a.btn-primary.disabled, .navbar .navbar-nav > li > a.btn-primary.disabled:hover, .navbar .navbar-nav > li > a.btn-primary.disabled:focus, .navbar .navbar-nav > li > a.btn-primary.disabled.focus, .navbar .navbar-nav > li > a.btn-primary.disabled:active, .navbar .navbar-nav > li > a.btn-primary.disabled.active, .navbar .navbar-nav > li > a.btn-primary:disabled, .navbar .navbar-nav > li > a.btn-primary:disabled:hover, .navbar .navbar-nav > li > a.btn-primary:disabled:focus, .navbar .navbar-nav > li > a.btn-primary:disabled.focus, .navbar .navbar-nav > li > a.btn-primary:disabled:active, .navbar .navbar-nav > li > a.btn-primary:disabled.active, .navbar .navbar-nav > li > a.btn-primary[disabled], .navbar .navbar-nav > li > a.btn-primary[disabled]:hover, .navbar .navbar-nav > li > a.btn-primary[disabled]:focus, .navbar .navbar-nav > li > a.btn-primary[disabled].focus, .navbar .navbar-nav > li > a.btn-primary[disabled]:active, .navbar .navbar-nav > li > a.btn-primary[disabled].active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary:hover, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary:focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary.focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary:active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary.active, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary:disabled, .btn-primary:disabled:hover, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary:disabled:active, .btn-primary:disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
@@ -1490,9 +1490,9 @@ textarea.form-control {
   }
 
   .card {
-    border-radius: 6px;
-    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
-    background-color: #FFFFFF;
+    background-color: #161313b6;
+    border: 5px solid #122b42;
+    border-radius: 20px;
     color: #252422;
     margin-bottom: 20px;
     position: relative;

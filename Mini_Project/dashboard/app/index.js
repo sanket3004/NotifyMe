@@ -17838,11 +17838,6 @@ var History = function (_React$Component) {
                                                 subTrack: subTrack,
                                                 subTrackIndex: index
                                             }),
-                                            !subTrack.img && _react2.default.createElement(
-                                                'span',
-                                                { onClick: _this2.displayDiff.bind(_this2, index, _this2.props.track.guid), rel: 'tooltip', className: 'btn btn-simple-history btn-simple btn-success btn-icon table-action', 'data-original-title': chrome.i18n.getMessage("DIFF") },
-                                                _react2.default.createElement('i', { className: 'ti-layout-media-right' })
-                                            )
                                         )
                                     )
                                 ),
@@ -18151,28 +18146,33 @@ var Info = function (_React$Component) {
                     _react2.default.createElement(
                         'div',
                         { className: 'table-icons-close' },
+
+                        _react2.default.createElement(
+                          'span',
+                          { 'data-toggle': 'modal',
+                              onClick: this.props.handlerOption.bind(this, this.props.track.guid, this.props.index, this.switchPinTab.bind(this)),
+                              'data-target': '#exampleModalOption',
+                              className: 'btn btn-simple btn-simple-info btn btn-icon table-action remove',
+                              rel: 'tooltip',
+                              'data-original-title': chrome.i18n.getMessage("ADDITIONAL_SETTINGS") },
+                          _react2.default.createElement('i', { className: 'ti-more-alt' })
+                      ),
+
                         _react2.default.createElement(
                             'span',
                             { className: 'btn btn-simple btn-simple-info btn-warning btn-icon table-action', onClick: this.recheckTracking.bind(this, this.props.index, this.props.track.guid), rel: 'tooltip', 'data-original-title': chrome.i18n.getMessage("RECHECK") },
                             _react2.default.createElement('i', { className: 'ti-reload' })
                         ),
+                        
+                        
+
                         _react2.default.createElement(
-                            'span',
-                            { className: 'btn btn-simple btn-simple-info btn-danger btn-icon table-action remove', onClick: function onClick() {
-                                    return _this2.props.removeTrack(_this2.props.index, _this2.props.track.guid);
-                                }, rel: 'tooltip', 'data-original-title': chrome.i18n.getMessage("REMOVE") },
-                            _react2.default.createElement('i', { className: 'ti-close' })
-                        ),
-                        _react2.default.createElement(
-                            'span',
-                            { 'data-toggle': 'modal',
-                                onClick: this.props.handlerOption.bind(this, this.props.track.guid, this.props.index, this.switchPinTab.bind(this)),
-                                'data-target': '#exampleModalOption',
-                                className: 'btn btn-simple btn-simple-info btn btn-icon table-action remove',
-                                rel: 'tooltip',
-                                'data-original-title': chrome.i18n.getMessage("ADDITIONAL_SETTINGS") },
-                            _react2.default.createElement('i', { className: 'ti-more-alt' })
-                        )
+                          'span',
+                          { className: 'btn btn-simple btn-simple-info btn-danger btn-icon table-action remove', onClick: function onClick() {
+                                  return _this2.props.removeTrack(_this2.props.index, _this2.props.track.guid);
+                              }, rel: 'tooltip', 'data-original-title': chrome.i18n.getMessage("REMOVE") },
+                          _react2.default.createElement('i', { className: 'ti-close' })
+                      )
                     )
                 )
             );
@@ -18625,16 +18625,7 @@ var ModalOption = function (_React$Component) {
                                 return _react2.default.createElement(
                                     'div',
                                     { className: 'form-group form-check col-sm-offset-1', key: index },
-                                    _react2.default.createElement(
-                                        'span',
-                                        { className: 'form-check-label' },
-                                        'CSS selector (',
-                                        index + 1,
-                                        ')'
-                                    ),
-                                    ' \xA0',
-                                    _react2.default.createElement('input', { value: track.firstSelector, onChange: _this2.changeSelector.bind(_this2, _this2.props.guidOption, index) })
-                                );
+                              );
                             }),
                             _react2.default.createElement(
                                 'button',
